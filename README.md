@@ -13,7 +13,7 @@ An api based request & fetching of data backend program
 
 - Now you will receive all the data present in database on the browser in **JSON** format plus Confirmation message and current data information on the terminal console.
   
-### For Postman, commands are follows:
+### For Postman, URLs are follows:
 
 - Type `localhost:8080/` for index page.
 - Type `localhost:8080/image` for image upload page.
