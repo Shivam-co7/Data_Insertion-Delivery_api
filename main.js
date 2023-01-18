@@ -1,6 +1,6 @@
 /********************************************************
- *  Author : Shivam Cahturvedi                          *
- *  Date   : 13/8/22                                    *              
+ *  Author : Shivam Chaturvedi                          *
+ *  Date   : 13/8/22                                    *
  *  Name   : Data_Insertion_Api                         *
  ********************************************************/
 
