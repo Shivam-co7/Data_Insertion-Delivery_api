@@ -88,7 +88,7 @@ app.post("/api_insert", function (req, res) {
 
 //Assigning sql query & calling it
 
-    let sql = `INSERT INTO entries (lr_number, d_person, bill, receiver, photo_id) VALUES (${id}, '${name}', '${billdata}', '${receiverdata}', '${photodata}')`;
+    let sql = `INSERT INTO entries (lr_number, d_person, d_person, receiver, photo_id) VALUES (${id}, '${name}', '${billdata}', '${receiverdata}', '${photodata}')`;
 
     db.query(sql, (err, result) => {
         if(err) throw err;

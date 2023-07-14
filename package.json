@@ -2,9 +2,9 @@
   "name": "node_sql",
   "version": "1.0.0",
   "description": "API to store data from the form entries into the mysql database.",
-  "main": "delivery.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "author": "Shivam Chaturvedi",
   "creation-date": "13-09-2022",
@@ -13,7 +13,8 @@
     "buffer": "^6.0.3",
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0",
-    "express-handlebars": "^6.0.6"
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
